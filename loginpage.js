@@ -3,7 +3,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == ["jamea", "khaimat", "tadreeb"] && password == "saifiyah", "riyadat", "fanni"){
+if ( username == "jamea", "khaimat", "tadreeb" && password == "saifiyah", "riyadat", "fanni"){
 alert ("Login successfully. You will be redirected once you click OK.");
 window.location = "https://www.petmate.in/"; // Redirecting to other page.
 return false;
