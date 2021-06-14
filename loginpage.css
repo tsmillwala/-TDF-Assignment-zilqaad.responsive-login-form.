@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(https://images.unsplash.com/photo-1497624138727-ebc770ef361e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat;
+    background: url(https://images.unsplash.com/photo-1589400867230-3491ceee2934?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80) no-repeat;
     background-size: cover;
 }
 .login-box{
