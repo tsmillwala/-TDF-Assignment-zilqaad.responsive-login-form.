@@ -9,7 +9,7 @@ window.location = "https://www.petmate.in/"; // Redirecting to other page.
 return false;
 }
 else{
-attempt --;// Decrementing by one.
+attempt --;//, Decrementing by one.
 alert("Invalid credintials! You have "+attempt+" attempts left.");
 
 // Disabling fields after 3 attempts.
