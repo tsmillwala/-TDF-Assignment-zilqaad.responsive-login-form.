@@ -62,11 +62,11 @@ body {
 }
 
 #username {
-    color: greenyellow;
+    color: red;
     text-shadow: 0 0 3px #000000;
 }
 #password {
-    color: greenyellow;
+    color: red;
     text-shadow: 0 0 3px #000000;
 }
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
