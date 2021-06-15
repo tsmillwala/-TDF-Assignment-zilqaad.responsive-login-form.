@@ -20,7 +20,7 @@ else if ( username == "tadreeb" && password == "fanni"){
         icon: "success",  
         button: "oh yes!",  
       });        
-window.location = "tadreebfanni.masakain.co.in"; // Redirecting to other page.
+window.location = "https://tadreebfanni.masakain.co.in"; // Redirecting to other page.
 return false;
 }
 else{
