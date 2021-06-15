@@ -5,7 +5,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "jamea" && password == "saifiyah" ){
 sweetAlert("Login successfully. You will be redirected once you click OK.");
-window.location = "https://www.petmate.in/"; // Redirecting to other page.
+window.location = "https://www.petmate.in/"; //. Redirecting to other page.
 return false;
 }
 else{
