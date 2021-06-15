@@ -10,7 +10,7 @@ return false;
 }
 else if ( username == "khaimat" && password == "riyadat"){
     swal("success!");      
-window.location = "https://tsmillwala.github.io/Krqm-attendance/"; // Redirecting to other page.
+window.location = "https://tsmillwala.github.io/krqm-attendance/"; // Redirecting to other page.
 return false;
 }
 else if ( username == "tadreeb" && password == "fanni"){
