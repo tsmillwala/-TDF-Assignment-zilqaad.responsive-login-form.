@@ -1,3 +1,4 @@
 function myFunction() {
-    alert("Kindly login to get started"); document.getElementById("alert");
+    swal("Kindly login to get started."); document.getElementById("alert");
   }
+  
