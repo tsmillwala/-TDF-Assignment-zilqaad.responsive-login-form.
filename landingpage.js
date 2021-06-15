@@ -1,3 +1,5 @@
 function myFunction() {
-    sweetAlert("Kindly login to get started."); document.getElementById("alert");
+    swal({
+  text: "Kindly login to get started",
+}); document.getElementById("alert");
   }
