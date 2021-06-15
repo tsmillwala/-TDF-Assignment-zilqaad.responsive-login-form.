@@ -3,9 +3,24 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "jamea" && password == "saifiyah" ){
-alert("Login successfully. You will be redirected once you click OK.");
-window.location = "https://www.petmate.in/"; //.. Redirecting to other page.
+if ( username == "jamea" && password == "saifiyah"){
+    alert("Login successfully. You will be redirected once you click OK.")      
+window.location = "http://www.jameasaifiyah.org/Students/stuLogin.aspx"; // Redirecting to other page.
+return false;
+}
+else if ( username == "khaimat" && password == "riyadat"){
+    swal("success!");      
+window.location = "https://tsmillwala.github.io/Krqm-attendance/"; // Redirecting to other page.
+return false;
+}
+else if ( username == "tadreeb" && password == "fanni"){
+    swal({  
+        title: "Good job!",  
+        text: "Click!",  
+        icon: "success",  
+        button: "oh yes!",  
+      });        
+window.location = "tadreebfanni.masakain.co.in"; // Redirecting to other page.
 return false;
 }
 else{
